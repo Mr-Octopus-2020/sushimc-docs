@@ -2,17 +2,17 @@
 
 <!-- brief intro -->
 
-Sushi Peak: Zenith entered open beta on July 19, 2026. It is a laid-back modpack focused on **survival, exploration, and building**. The server is still under active development.
+Sushi: Zenith entered open beta on July 19, 2026. It is a laid-back modpack focused on **survival, exploration, and building**. The server is still under active development.
 
 ---
 
 ## Joining Guide {#guide-join}
 
-> This guide helps you install the Sushi Peak: Zenith modpack and configure the necessary settings.
+> This guide helps you install the Sushi: Zenith modpack and configure the necessary settings.
 
 ### Installing the Modpack
 
-First, join the Sushi Peak QQ group: **`1045084460`**
+First, join the Sushi QQ group: **`1045084460`**
 
 In the group files, find the modpack folder, locate "Zenith", and **download the latest version**.
 
@@ -37,20 +37,28 @@ For specific launcher setting guide, please refer to the launcher's official doc
 !!! note "Why there's no image guide?"
     
     We re sorry but our development team have no experience of using a non-Chinese Minecraft launcher. If you're interested in contributing image guide, please contact us via QQ.
-
-This parameter connects your game to the Sushi Peak update service and keeps your client on the latest version.
-
-Once configured, you can launch the Sushi Peak: Zenith modpack!
-
+    
 !!! warning "Important Notes"
     1. Make sure to set the JVM parameter in the **modpack's version settings**, not the global launcher settings. If you put it in the global settings, you won't be able to play other Minecraft versions normally.
-    2. On **Windows**, the modpack installation path must contain **only ASCII characters**. If your `.minecraft` folder path contains non-ASCII characters (e.g., your Windows username contains Chinese characters), see the [Services](#update-service) section below for help.
+    2. On **Windows**, the modpack installation path must contain **only ASCII characters**. If your `.minecraft` folder path contains non-ASCII characters (e.g., your Windows username contains Japanese Kana characters), see the [Services](#update-service) section below for help.
+
+This parameter connects your game to the SushiMC update service and keeps your client on the latest version.
+
+### Login methods
+
+For safety and compatibility, Sushi: Zenith only allow players to log in through [LittleSkin](https://littleskin.cn).
+
+If you had bought Minecraft, you can link your LittleSkin account with your Microsoft account and go on.
+
+If you hadn't, you can still use LittleSkin to login without purchasing Minecraft.
+
+Once configured, you can launch the Sushi: Zenith modpack!
 
 ---
 
 ## Gameplay Guide
 
-> A quick overview of common things to know about Sushi Peak: Zenith.
+> A quick overview of common things to know about Sushi: Zenith.
 
 ### Network Lines
 
@@ -83,11 +91,11 @@ Use `/server` to switch between sub-servers:
 
 ![Cross-server chat](../images/zh-CN/cross-server-chat.png)
 
-You can see chat from all sub-servers on the Sushi Peak network. Messages from players on the same server as you appear normally, while messages from other servers are prefixed with the server name before the player name.
+You can see chat from all sub-servers on the SushiMC network. Messages from players on the same server as you appear normally, while messages from other servers are prefixed with the server name before the player name.
 
 ### Voxy Mod
 
-The Sushi Peak: Zenith modpack comes with the **Voxy** distance extension mod by default. You can adjust your desired render distance in the video settings.
+The Sushi: Zenith modpack comes with the **Voxy** distance extension mod by default. You can adjust your desired render distance in the video settings.
 
 ![Voxy settings](../images/zh-CN/voxy-settings.png)
 
@@ -95,7 +103,7 @@ The server provides a maximum render distance of **16 chunks** and sends up to *
 
 ![Voxy Server Side settings](../images/zh-CN/voxy-settings2.png)
 
-Voxy supports shaders on Sushi Peak: Zenith. We recommend [**Complementary**](https://modrinth.com/shader/complementary-unbound) shaders with the [**Euphoria Patches**](https://modrinth.com/mod/euphoria-patches) mod for great performance and visuals.
+Voxy supports shaders on Sushi: Zenith. We recommend [**Complementary**](https://modrinth.com/shader/complementary-unbound) shaders with the [**Euphoria Patches**](https://modrinth.com/mod/euphoria-patches) mod for great performance and visuals.
 
 !!! warning "Voxy Performance"
 
@@ -107,7 +115,7 @@ Voxy supports shaders on Sushi Peak: Zenith. We recommend [**Complementary**](ht
 
 > These tips can improve your experience but are entirely optional.
 >
-> They may require some technical knowledge. Don't worry if you can't follow — you **don't need** to do any of this to enjoy Sushi Peak: Zenith.
+> They may require some technical knowledge. Don't worry if you can't follow — you **don't need** to do any of this to enjoy Sushi: Zenith.
 
 ### Syncing Xaero Maps Across Lines {#data-sync}
 
@@ -131,7 +139,7 @@ Similar to above, you may notice that after switching lines, your **Voxy chunk c
 
 ## Services
 
-> Public services available for Sushi Peak: Zenith players.
+> Public services available for Sushi: Zenith players.
 
 ### Auto-Update Service {#update-service}
 
@@ -140,6 +148,8 @@ If you set the JVM parameter as described in the [Joining Guide](#guide-join), y
 !!! warning "Update Issues"
 
     If you see an error window on launch, something is wrong with the update service. Please ask politely in the QQ group for help.
+    
+    If your .minecraft path contains **non-ASCII characters**, you may fail to use update service throuogh JVM arguments. For this, please direct to version folder and run `update.exe` to update manually.
 
 ### Other Services
 
